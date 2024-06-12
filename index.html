@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe App</title>
+    <link rel="stylesheet" href="recipe.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="h1">Recipe App</h1>
+        <form>
+          <input
+            type="search"
+            id="searchInput"
+            placeholder="Search for recipes..."
+          />
+          <button type="submit" id="searchBtn">Search</button>
+        </form>
+      </nav>
+    </header>
+    <section> 
+      <h1 id="msg" align="center">Search any type of Racipe like Cake,cheese,sandwich anything.....</h1>
+      <main>
+        <div id="recipeContainer">
+        </div>
+        <div class="recipe_details">
+          <button id="racipe_closeBtn">X</button>
+          <div class="racipe_details_content"></div>
+        </div>
+        </div>
+      </main>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 20,
+      });
+    </script>
+    <script src="recipe.js"></script>
+  </body>
+</html>
