@@ -5,6 +5,9 @@
   font-family: "Rubik", sans-serif;
 }
 
+body{
+  background-color: #e8e8e8;
+}
 section {
   overflow: hidden;
 }
@@ -72,9 +75,9 @@ button {
 }
 
 .card {
-  box-shadow: 2px 2px 3px 1px rgba(24, 24, 24, 0.24),
-    2px 2px 3px rgba(24, 24, 24, 0.093), inset 2px 2px 2px #ffffff;
-  background-color: #eeeeee;
+  background: #e8e8e8;
+  box-shadow: 5px 5px 6px #dadada, -5px -5px 6px #f6f6f6;
+
   padding: 1rem;
   border-radius: 1rem;
   width: 100%;
